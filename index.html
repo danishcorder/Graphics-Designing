@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Showcase of my graphic designing work">
+    <title>My Graphic Design Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            margin: 1rem 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1.2rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .portfolio {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+        .portfolio-item {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .portfolio-item img {
+            width: 100%;
+            height: auto;
+        }
+        .portfolio-item h3 {
+            margin: 0;
+            padding: 1rem;
+            font-size: 1.5rem;
+            background: #333;
+            color: #fff;
+        }
+        .portfolio-item p {
+            padding: 1rem;
+            font-size: 1rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #333;
+            color: #fff;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Graphic Design Portfolio</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I am a passionate graphic designer with a love for creating visually stunning designs. Welcome to my portfolio!</p>
+        </section>
+
+        <section id="portfolio">
+            <h2>My Work</h2>
+            <div class="portfolio">
+                <div class="portfolio-item">
+                    <img src="design1.jpg" alt="Design 1">
+                    <h3>Design 1</h3>
+                    <p>A brief description of this design.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="design2.jpg" alt="Design 2">
+                    <h3>Design 2</h3>
+                    <p>A brief description of this design.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="design3.jpg" alt="Design 3">
+                    <h3>Design 3</h3>
+                    <p>A brief description of this design.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>If you'd like to work with me or have any questions, feel free to reach out!</p>
+            <p>Email: your-email@example.com</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 My Graphic Design Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
